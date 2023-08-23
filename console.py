@@ -329,6 +329,7 @@ class HBNBCommand(cmd.Cmd):
         print("Updates an object with new information")
         print("Usage: update <className> <id> <attName> <attVal>\n")
 
+
 def verify_param(list_arg):
     """Verifies parameter list passed into and return a dictionary"""
     dict_param = {}
@@ -345,6 +346,7 @@ def verify_param(list_arg):
                 dict_param[param[0]] = param[1]
     return (dict_param)
 
+
 def is_int(arg):
     """Check if value is in"""
     try:
@@ -352,6 +354,7 @@ def is_int(arg):
         return True
     except ValueError:
         return False
+
 
 def is_float(arg):
     """Check if value is a float"""
