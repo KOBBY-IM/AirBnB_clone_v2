@@ -61,5 +61,4 @@ class FileStorage:
         - if obj is equal to None """
         if obj:
             key = obj.to_dict()['__class__'] + '.' + obj.id
-            print(f"\n{key}\n")
             del FileStorage.__objects[key]
