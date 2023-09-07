@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """Defines a fabric file to be executed locally"""
-from datetime import dattime
+from datetime import datetime
 from fabric.api import *
 
 
